@@ -1,0 +1,16 @@
+@startuml
+skinparam classAttributeIconSize 0
+class Product {
+  - id : Long
+  - name : String
+  - price : double
+  + Product()
+  + Product(id : Long, name : String, price : double)
+  + getId() : Long
+  + getName() : String
+  + getPrice() : double
+  + setId(id : Long) : void
+  + setName(name : String) : void
+  + setPrice(price : double) : void
+}
+@enduml
